@@ -56,9 +56,4 @@ if modo == "Acumulación":
 else:
     st.latex(r"e^{-\ln(2) \cdot \frac{t}{t_{1/2}}}")
 
-st.markdown("Donde:")
-st.markdown("- \( N_0 \): número inicial de núcleos")
-st.markdown("- \( t_{1/2} \): vida media")
-st.markdown("- \( n = t / t_{1/2} \): número de periodos")
-
 st.success("✅ Simulación completada.")
