@@ -13,8 +13,8 @@ modo = st.radio("Selecciona el tipo de simulación:", ["Acumulación", "Desinteg
 
 # Entradas del usuario
 num_periodos = st.slider("Número de periodos a simular", min_value=1, max_value=30, value=10)
-dt = st.slider("Paso entre puntos (en periodos)", min_value=0.1, max_value=5.0, value=1.0)
-
+#dt = st.slider("Paso entre puntos (en periodos)", min_value=0.1, max_value=5.0, value=1.0)
+dt = 1.0
 # Parámetro constante
 lambda_ln2 = np.log(2)  # ln(2)
 
